@@ -99,13 +99,13 @@ This will:
 python train.py output/ \
   --train_dir data/train \
   --valid_dir data/valid \
-  --model_name facebook/dinov3-vitl16-pretrain-lvd1689m \
+  --model_name facebook/dinov3-vits16-pretrain-lvd1689m \
   --model_dir weights \
   --batch_size 32 \
   --num_epochs 20 \
   --learning_rate 1e-5 \
   --proj_dim 1024 \
-  --freeze_until 20 \
+  --freeze_until 10 \
   --margin 0.2
 ```
 
